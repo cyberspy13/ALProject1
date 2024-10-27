@@ -1,12 +1,12 @@
 table 50100 "Reward Level"
 {
-    Caption = 'Reward Level';
-    TableType = Normal;
-    DataClassification = CustomerContent;
+    Caption = 'Reward Level'; //The Caption property sets the text string that displays with the object, control, or other element in the user interface for the current language
+    TableType = Normal; //Normal is the default value of the TableType property.
+    DataClassification = CustomerContent; //Data classification can be used to adhere to security, compliance, and privacy requirements and processes for collecting, storing, and using someone's personal information.
 
     fields
     {
-        field(1; Level; Text[20])
+        field(1; Level; Text[20]) //If a field has properties, they can be set in between the braces { }.
         {
             Caption = 'Level';
             DataClassification = CustomerContent;
