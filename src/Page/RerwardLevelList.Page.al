@@ -4,6 +4,8 @@ page 50101 "Rewards Level List"
     ContextSensitiveHelpPage = 'sales-rewards';
     SourceTable = "Reward Level";
     SourceTableView = sorting("Minimum Reward Points") order(ascending);
+    ApplicationArea = All;
+    UsageCategory = Lists;
 
     layout
     {
