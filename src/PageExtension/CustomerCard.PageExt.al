@@ -13,7 +13,7 @@ pageextension 50100 "Customer Card" extends "Customer Card"
                 ToolTip = 'Specifies the level of reward that the customer has at this point.';
                 Editable = false;
             }
-            field(RewardPoints; RewardPoints)
+            field(RewardPoints; Rec.RewardPoints)
             {
                 ApplicationArea = All;
                 Caption = 'Reward Points';
@@ -25,7 +25,7 @@ pageextension 50100 "Customer Card" extends "Customer Card"
     }
     trigger OnAfterGetRecord();
     var
-        CustomerRewardsMgtExt: Codeunit "Customer Rewards Ext. Mgt.";
+        CustomerRewardsMgtExt: Codeunit "Customer Rewards Ext. Mgt";
     begin
         // Get the reward level associated with reward points 
         RewardLevel := CustomerRewardsMgtExt.GetRewardLevel(Rec.RewardPoints);

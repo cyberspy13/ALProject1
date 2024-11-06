@@ -15,7 +15,7 @@ pageextension 50101 CustomerList extends "Customer List"
 
                 trigger OnAction();
                 var
-                    CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext Mgt";
+                    CustomerRewardsExtMgt: Codeunit "Customer Rewards Ext. Mgt";
                 begin
                     if CustomerRewardsExtMgt.IsCustomerRewardsActivated then
                         CustomerRewardsExtMgt.OpenRewardsLevelPage
