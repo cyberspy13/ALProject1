@@ -1,7 +1,12 @@
-codeunit 50100 "Customer Rewards Installation"
+codeunit 50201 "Customer Rewards Installation"
 {
     // Customer Rewards Install Logic 
     Subtype = Install;
+    Permissions =
+        tabledata Customer = RM,
+        tabledata "Customer Rewards Mgt. Setup" = RID,
+        tabledata "Reward Level" = RI,
+        tabledata "Sales Header" = R;
 
     trigger OnInstallAppPerCompany();
     var

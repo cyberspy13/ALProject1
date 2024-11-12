@@ -1,4 +1,4 @@
-table 50101 "Activation Code Information"
+table 50200 "Activation Code Information"
 {
     Caption = 'Activation Code Information';
     DataClassification = SystemMetadata;

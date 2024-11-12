@@ -1,4 +1,4 @@
-codeunit 50101 "Customer Rewards Ext. Mgt"
+codeunit 50202 "Customer Rewards Ext. Mgt"
 {
     EventSubscriberInstance = StaticAutomatic; //this means that subscribers are statically bound to events and the codeunit instances are controlled by the system.
 

@@ -1,4 +1,4 @@
-page 50101 "Rewards Level List"
+page 50200 "Rewards Level List"
 {
     PageType = List;
     //ContextSensitiveHelpPage = 'sales-rewards';

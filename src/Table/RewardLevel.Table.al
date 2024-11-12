@@ -1,4 +1,4 @@
-table 50100 "Reward Level"
+table 50202 "Reward Level"
 {
     Caption = 'Reward Level'; //The Caption property sets the text string that displays with the object, control, or other element in the user interface for the current language
     TableType = Normal; //Normal is the default value of the TableType property.

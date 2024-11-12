@@ -1,4 +1,4 @@
-codeunit 50102 "Cust Rewards Assisted Setup"
+codeunit 50200 "Cust Rewards Assisted Setup"
 {
     trigger OnRun()
     begin

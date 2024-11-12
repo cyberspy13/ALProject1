@@ -1,4 +1,4 @@
-table 50102 "Customer Rewards Mgt. Setup"
+table 50201 "Customer Rewards Mgt. Setup"
 {
     Caption = 'Customer Rewards Mgt. Setup';
     DataClassification = CustomerContent;
